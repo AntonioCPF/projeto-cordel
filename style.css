@@ -52,6 +52,7 @@ section > p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;
 }
+
 .imagem1{
     background: black url('imagens/background001.jpg') center right no-repeat fixed;
     background-size: cover;
@@ -62,6 +63,16 @@ section > p {
     background: black url('imagens/background002.jpg') center right no-repeat fixed;
     background-size: cover;
     color: white;
+    padding: 10px;
+}
+.imagem1 >p{
+    background:rgba(0, 0, 0, 0.377);
+    display: inline-block;
+}
+.imagem2 >p{
+    background:rgba(0, 0, 0, 0.377);
+    display: inline-block;
+    padding: 10px;
 }
 footer{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
